@@ -22,12 +22,12 @@
    </food>
    <food category = "Desserts">
        <name>Sticky Toffee Pudding with vanilla icecream</name>
-       <description>Warm Sponge drizzled with toffee sauce</description>
+       <description>Warm Sponge drizzled with toffee sauce.</description>
        <price>£5.50</price>
    </food>
    <food category = "Desserts">
        <name>Apple Crumble with toffee icecream</name>
-       <description>Apple Crumble base with smooth toffee icecream</description>
+       <description>Apple Crumble base with smooth toffee icecream<./description>
        <price>£6.50</price>
    </food>
    <food category = "Specials">
@@ -37,7 +37,7 @@
    </food>
     <food category = "Specials">
         <name>Blue lagoon Delight</name>
-        <description>Blue lagoon Icecream to cool down in the summer sun </description>
+        <description>Blue lagoon Icecream to cool down in the summer sun! </description>
         <price>£4.50</price>
    </food>
 </menu>
