@@ -64,7 +64,7 @@ public class DOMMenu {
 			path = xpathFactory.newXPath();
 
 			// parse the document for later searching
-			document = builder.parse(new File("Menu.xml"));
+			document = builder.parse(new File(filename));
 
 			//Normalising XML Structure
 			document.getDocumentElement().normalize();
