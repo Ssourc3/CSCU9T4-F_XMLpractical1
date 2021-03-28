@@ -10,4 +10,4 @@ Changes and processes that have been made:
 5) Created code to get all the food Items by looping through the list --> NodeList nList = document.getElementsByTagName("food");
 6) Was able to parse/read the food items on the small menu using --> eElement.getElementsByTagName and eElement.getAttribute. 
 
-Also created own XML for testing.(Menu.xml)
+
