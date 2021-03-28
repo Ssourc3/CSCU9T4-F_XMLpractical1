@@ -106,7 +106,7 @@ public class DOMMenu {
 		System.out.println(root.getNodeName());
 
 		//Get all food items
-		NodeList nList = document.getElementsByTagName("food");
+		NodeList nList = document.getElementsByTagName("menu");
 		System.out.println("==========Today's Menu==============");
 
 		for (int temp = 0; temp < nList.getLength(); temp++)
@@ -118,9 +118,9 @@ public class DOMMenu {
 				//Print each Food Item
 				Element eElement = (Element) node;
 				System.out.println("Food Category : "    + eElement.getAttribute("category"));
-				System.out.println("Name : "  + eElement.getElementsByTagName("food").item(0).getTextContent());
-				System.out.println("Description : "   + eElement.getElementsByTagName("description").item(1).getTextContent());
-				System.out.println("Price : "    + eElement.getElementsByTagName("price").item(2).getTextContent());
+				System.out.println("Name : "  + eElement.getElementsByTagName("name").item(0).getTextContent());
+				System.out.println("Price : "    + eElement.getElementsByTagName("price").item(1).getTextContent())
+				System.out.println("Description : "   + eElement.getElementsByTagName("description").item(2).getTextContent());
 			}
 		}
 	}
