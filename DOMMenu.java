@@ -119,11 +119,13 @@ public class DOMMenu {
 				Element eElement = (Element) node;
 				System.out.println("Food Category : "    + eElement.getAttribute("category"));
 				System.out.println("Name : "  + eElement.getElementsByTagName("name").item(0).getTextContent());
-				System.out.println("Price : "    + eElement.getElementsByTagName("price").item(1).getTextContent())
-				System.out.println("Description : "   + eElement.getElementsByTagName("description").item(2).getTextContent());
+				System.out.println("Price : "    + eElement.getElementsByTagName("price").item(0).getTextContent());
+				System.out.println("Description : "   + eElement.getElementsByTagName("description").item(0).getTextContent());
 			}
+		
 		}
 	}
+	
 	/**
     Get result of XPath query.
 
