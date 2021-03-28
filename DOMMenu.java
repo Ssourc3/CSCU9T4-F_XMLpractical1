@@ -115,7 +115,7 @@ public class DOMMenu {
 			System.out.println("");  //Separator
 			if (node.getNodeType() == Node.ELEMENT_NODE)
 			{
-				//Print each employee's detail
+				//Print each Food Item
 				Element eElement = (Element) node;
 				System.out.println("Food Category : "    + eElement.getAttribute("category"));
 				System.out.println("Name : "  + eElement.getElementsByTagName("food").item(0).getTextContent());
